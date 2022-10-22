@@ -93,7 +93,7 @@ export class App extends Component {
       <AppContainer>
         {showModal && (
           <Modal onCloseWindow={this.toggleModal}>
-            <img src={modalImg} alt="Large image" />
+            <img src={modalImg} alt="LargeImage" />
           </Modal>
         )}
         <SearchBar onSubmit={this.handleSearchInfo} />
